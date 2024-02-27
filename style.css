@@ -20,7 +20,7 @@ main {
     height: 100vh;
     width: 100%;
     background-color: #FAFAF9;
-    padding: 0 60px;
+    padding: 0 70px;
 }
 
 .infografia {
@@ -49,7 +49,7 @@ main {
 }
 
 .infografia-description {
-    padding-right: 50px;
+    padding-right: 20px;
     font-family: 'Sora';
     font-size: 20px;
     margin-bottom: 35px;
@@ -81,7 +81,7 @@ main {
 .review {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     width: 50%;
 }
 
@@ -91,6 +91,26 @@ main {
     display: flex;
     flex-direction: column;
     font-family: 'Sora';
-    width: 50%;
+    width: 65%;
+    height: 165px;
+    padding: 30px;
+    box-shadow: 0px  0px 1.3px #D4D4D8;
+    border-radius: 7px;
+}
+
+.review-card:first-child {
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+.review-card h5 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+
+.review-card p {
+    font-size: 16px;
+    color: #52525A;
 }
 
