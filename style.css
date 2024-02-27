@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    height: 100vh;
+    width: 100%;
+    background-color: #FAFAF9;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #FAFAF9;
+    padding: 0 60px;
+}
+
+.infografia {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-star {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 20px;
+    background-color: #F5C044;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.infografia-title {
+    margin-bottom: 11px;
+    font-family: 'Sora';
+    font-size: 36px;
+}
+
+.infografia-description {
+    padding-right: 50px;
+    font-family: 'Sora';
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: #52525A;
+}
+
+.infografia-checklist {
+    display: flex;
+    flex-direction: column;
+}
+
+.infografia-checklist div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.infografia-checklist div p {
+    display: inline;
+    font-size: 14px;
+    font-family: 'Sora';
+    color: #52525A;
+    margin-left: 10px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.review-card {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sora';
+    width: 50%;
+}
+
